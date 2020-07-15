@@ -5,5 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(aryOfObjs){
-  return aryOfObjs.find(obj=>obj.result==="W").year
+  let winner = aryOfObjs.find(obj=>obj.result==="W");
+  return .year
 }
